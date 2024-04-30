@@ -1,0 +1,217 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color:#ddd;
+  margin: 0;
+}
+.box{/*esto solo afecta a la imagen de background*/
+  background-image: url("fondoimg.jpeg");
+  width: 100%;
+  min-width: 50%;
+  margin:30px;
+  height: 400px;
+  background-size: cover;
+  margin:0;
+  background-position: 0px -300px;
+  background-attachment: fixed;
+}
+.opaco {/*opacidad de la imagen background*/
+  height: 100%;
+  width: 100%;
+  background-color: rgba(218, 165, 96, 0.3);
+}
+.card_img{
+  font-size: 650px;
+  text-align: left;
+  width: 80px;
+  padding: 0;
+  padding-top: 40px;
+  padding-left: 30px;
+  
+  
+}
+h4{
+  padding: 20px;
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 40px;
+  font-size: 50PX;
+  
+}
+.card {/*las cartas*/
+  background: transparent;
+  text-align: center;
+  width: 40%;
+  margin:0;
+  margin-top: 50px;
+  margin-left: 73px;
+  padding:10px 15px;
+  box-shadow: 0px 0px 25px goldenrod;
+  border-radius: 8px;
+  display: inline-block;/*pone las cartas en horizontal*/
+  margin-top: 50px;
+}
+.card_title {/*la comuna*/
+  font-size: 20px;
+  margin: 0;
+  padding: 3px;
+}
+
+.card_subtitle{ /*la dirección completa de la comuna*/
+  font-size: 11px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.card_content{ /*es la información de la carta hecha en tabla*/
+  font-size: 20px;
+  padding:0;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  margin-bottom: 0;
+  width: 30%;
+}
+th{
+  width: 30%;
+}
+button{
+  padding: auto;
+}
+
+.card_img1{/*la imagen de la carta*/
+  width: 70%;
+  height: 110px;
+  background-image: url("gym.jpg");
+  background-size: cover;
+}
+.card_img2{/*la imagen de la carta*/
+ width: 70%;
+  height: 110px;
+  background-image: url("gym2.jpg");
+  background-size: cover;
+}
+
+.card_img3{/*la imagen de la carta*/
+  width: 70%;
+  height: 110px;
+  background-image: url("gym3.jpg");
+  background-size: cover;
+}
+.card_img4{/*la imagen de la carta*/
+ width: 70%;
+  height: 110px;
+  background-image: url("gym4.png");
+  background-size: cover;
+}
+.card_img5{/*la imagen de la carta*/
+ width: 70%;
+  height: 110px;
+  background-image: url("gym5.png");
+  background-size: cover;
+}
+.card_img6{/*la imagen de la carta*/
+  width: 70%;
+  height: 110px;
+  background-image: url("gym6.jpg");
+  background-size: cover;
+}
+h2{
+  padding-top: 50px;
+  font-size: 14px;
+  margin: 0;
+}
+
+h3{
+  font-size: 13px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+p{
+  padding-bottom: 20px;
+}
+.pfrecuente{
+  margin: 0; 
+  padding-top: 5px;
+}
+details {/*la caja de preguntas frecuentes cerrada*/
+  background-color: transparent;
+  border:1px solid goldenrod;
+  font-size: 0.7em;
+  color: #aaa;
+  background: linear-gradient(to right, transparent 50%, #daa520);
+}
+
+details[open] {/*cuando abre la caja de pfrecuentes*/
+  border:1px solid goldenrod;
+  font-weight: bold;
+  color: #eee;
+  font-size: 0.7em;
+}
+summary {/*la pregunta*/
+  background-color: transparent;
+  border-bottom: 1px solid goldenrod;
+  padding: 9px;
+  font-size: 1em;
+  color: #eee;
+}
+
+footer {/*la barra de la parte de abajo*/
+  background-color: #daa520;
+  padding-bottom: 70px;
+  margin-top: 100px;
+  color: #000;
+}
+
+.link {/*dice "contactanos"*/
+  text-align: center;
+}
+
+i {/*fa brands*/
+  text-align: left;
+  font-size: 25px;
+  color: #000;
+  margin: 20px;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 5px 10px rgb(0,0,0 .35);
+  transition: .3s ease;
+}
+.contenedor{/*los link de las redes sociales y font*/
+  margin: 0;
+  padding: 50px 50px;
+  padding-top: 10px;
+  text-align: center;
+}
+.fa-youtube:hover{
+  background-color: red;
+  color: #fff;
+  box-shadow: 0 0 15px red,
+              0 0 45px red,
+              0 0 75 red,
+              0 0 115px red; 
+}
+
+.fa-instagram:hover{
+  background-color: #FF3E00;
+  color: #fff;
+  box-shadow: 0 0 15px #FF3E00,
+              0 0 45px #FF3E00,
+              0 0 75 #FF3E00,
+              0 0 115px #FF3E00; 
+}
+.fa-twitter:hover{
+  background-color: #1da1f2;
+  color: #fff;
+  box-shadow: 0 0 15px #1da1f2,
+              0 0 45px #1da1f2,
+              0 0 75 #1da1f2,
+              0 0 115px #1da1f2; 
+}
+
+p {
+  padding-left: 10px;
+  padding-top: 30px;
+  padding-bottom: 3px;
+  font-size: 20px;
+}
