@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Contactanos</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/a2dd6045c4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <form>
+    <a href="../principal.html"><i class="fa-solid fa-house"></i></a>
+    <h2>
+      Contactanos!
+    </h2>
+  <fieldset>
+    <legend> Información Básica</legend>
+    <div class="form_input">
+      <label for="nombre">Nombre Completo
+      <input type= "text" placeholder="John Doe" id="nombre">
+      </label>
+    </div>
+    <div class="form_input">
+      <label for="email">Email
+      <input type="Email" placeholder="ejemplo@gmail.com" id="email">
+      </label>
+    </div>
+  </fieldset>
+    <div class="form_input">
+      <label>¿cuál es tu cede?
+        <input list="cede" name="cede">
+      <datalist id="cede" name="lugar-de-gym">
+         <option value="trinidad">la florida</option>
+         <option value="lo ovalle">la cisterna</option>
+         <option value="lo sierra">lo espejo</option>
+         <option value="santa ana">san ramon</option>
+         <option value="villa margarita">san bernardo</option>
+         <option value="club hipico">pedro aguirre cerda</option>
+
+      </datalist>
+      </label>
+    </div>
+      <div class="form_input">
+        <label for="mensaje">descripción
+        <textarea placeholder="cuentanos tus dudas" id="mensaje"></textarea>
+        </label>
+      </div>
+    <div class="form_input">
+      <label>Acepto los terminos y condiciones
+        <input type="checkbox" class="checkbox">      
+      </label>
+    </div>
+    <input type="submit" value="enviar">
+  </form>
+</body>
+</html>
